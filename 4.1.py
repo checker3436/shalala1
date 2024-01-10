@@ -9,5 +9,4 @@ def gam(x, eps = 10**(-8)):
     return pr/x
 #левый комент просто чтобы был
 
-
 print(gam(3), gam(3, 0.01), gam(x = 5, eps = 10**(-10)))
